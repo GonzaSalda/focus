@@ -8,9 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        accent:"#591ddd",
+        accent_secondary:"#8727e1",
       },
+      backgroundImage:{
+        body:"url('/body-bg.png')"
+      }
     },
   },
   plugins: [],
