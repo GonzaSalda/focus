@@ -9,7 +9,7 @@ export const Hero = () => {
 
   const imgTopPosition = useTransform(scrollY, [0, 400], ["480px", "240px"]);
   const imgScale = useTransform(scrollY, [0, 200, 1300], [1, 1.4, 1]);
-  const textOpacity = useTransform(scrollY, [0, 200], [1, 0]);
+  const textOpacity = useTransform(scrollY, [0, 200], [1, 0]); // Empieza con 1(todavia se ve) de opacity y termina con 0(invisible) de opacity
   const textScale = useTransform(scrollY, [0, 200], [1, 0.8]);
   const textDisplay = useTransform(scrollY, [0, 800], ["flex", "none"]);
 

@@ -1,4 +1,5 @@
 "use client";
+import Brands from "./Components/Brands";
 // Components
 import { Hero } from "./Components/Hero";
 
@@ -10,6 +11,7 @@ const Home = () => {
     <>
       <ReactLenis root>
         <Hero />
+        <Brands/>
         <div className="h-[8000px]"></div>
       </ReactLenis>
     </>
